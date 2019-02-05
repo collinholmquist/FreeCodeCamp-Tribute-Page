@@ -1,0 +1,51 @@
+
+
+.big {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  
+  z-index: -1
+}
+.big img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  
+}
+
+.div-transparent {
+  opacity: 0.9;
+}
+
+.header-text {
+  font-family: Aresenal;
+}
+
+.sub-head {
+  font-family: Raleway;
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+    
+}
+
+a {color:black;}
